@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Doi tien USD</title>
+    <link rel="stylesheet" href="doiTien.css">
+</head>
+<body>
+
+<table >
+    <tr>
+        <th>Amount</th>
+        <th>From Currency</th>
+        <th>To Currency</th>
+    </tr>
+
+    <tr>
+        <td>
+            <input id="amount" type="number" size =30px>
+        </td>
+        <td >
+            <select id="currency1" >
+                <option value="23000">VND</option>
+                <option value="1">USD</option>
+            </select>
+        </td>
+
+        <td>
+            <form id="currency3">
+                <select id="currency2" >
+                    <option value="23000">VND</option>
+                    <option value="1">USD</option>
+
+                </select>
+            </form>
+
+        </td>
+        <td>
+            <button class="button" onclick="convert();">Convert</button>
+        </td>
+    </tr>
+
+
+</table>
+<script src=".js"></script>
+</body>
+</html>
