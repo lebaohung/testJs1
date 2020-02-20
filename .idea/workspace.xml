@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="9a42fae9-347a-42df-85b4-a9529d6a1776" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doiTien.html" beforeDir="false" afterPath="$PROJECT_DIR$/doiTien.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,8 +13,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -38,7 +37,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -54,7 +53,7 @@
       <workItem from="1582086508321" duration="330000" />
       <workItem from="1582086974409" duration="14079000" />
       <workItem from="1582122846805" duration="4741000" />
-      <workItem from="1582160691053" duration="4458000" />
+      <workItem from="1582160691053" duration="6193000" />
     </task>
     <servers />
   </component>
@@ -70,9 +69,9 @@
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="527" y="152" width="424" height="484" key="FileChooserDialogImpl/67.27.1299.741@67.27.1299.741" timestamp="1582086836210" />
-    <state x="233" y="29" key="SettingsEditor" timestamp="1582179811437">
+    <state x="233" y="29" key="SettingsEditor" timestamp="1582182746280">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state x="233" y="29" key="SettingsEditor/67.27.1299.741@67.27.1299.741" timestamp="1582179811437" />
+    <state x="233" y="29" key="SettingsEditor/67.27.1299.741@67.27.1299.741" timestamp="1582182746280" />
   </component>
 </project>
