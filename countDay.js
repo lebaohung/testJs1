@@ -1,6 +1,12 @@
 function count() {
     let month = parseInt(document.getElementById("inputMonth").value);
-    if ( month <13 && month > 0) {
+    if (month > 12 || month < 0 || isNaN(month) == true  ) {
+        if(isNaN(month) == true ) {
+            document.getElementById("result").innerHTML = ("Nhap lai vao so thang ")
+        } else {
+            document.getElementById("result").innerHTML = ("Khong ton tai thang " + month);
+        }
+    } else {
         switch (month) {
             case 1:
             case 5:
@@ -18,7 +24,6 @@ function count() {
                 document.getElementById("result").innerHTML = "Thang " + month + " co 30 ngay";
                 break;
         }
-    } else {document.getElementById("result").innerHTML = "Khong ton tai thang nay";
     }
     return false;
 }
