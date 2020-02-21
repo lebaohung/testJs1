@@ -3,21 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <title>May tinh</title>
-    <link rel="text/css" href="mayTinh.css">
+    <link rel="stylesheet" href="mayTinh.css">
+    <script src="calculator.js"></script>
 
 </head>
 <body>
+<div class="container">
 
-<div>
     <table>
-        <tr>
-            <td rowspan="6">
-                <input class="ip" type="number" value="0">
-            </td>
+        <tr >
+            <td colspan="4"><input class="inputzone" id="result" type="string" value="" ></td>
         </tr>
+
+
+        <tr>
+            <td><button type="button" value="1" onclick="displaybtn(value)">1</button> </td>
+            <td><button type="button" value="2" onclick="displaybtn(value)">2</button> </td>
+            <td><button type="button" value="3" onclick="displaybtn(value)">3</button> </td>
+            <td><button type="button" value="+" onclick="displaybtn(value)">+</button> </td>
+        </tr>
+
+        <tr>
+            <td><button type="button" value="4" onclick="displaybtn(value)">4</button> </td>
+            <td><button type="button" value="5" onclick="displaybtn(value)">5</button> </td>
+            <td><button type="button" value="6" onclick="displaybtn(value)">6</button> </td>
+            <td><button type="button" value="-" onclick="displaybtn(value)">-</button> </td>
+        </tr>
+
+        <tr>
+            <td><button type="button" value="7" onclick="displaybtn(value)">7</button> </td>
+            <td><button type="button" value="8" onclick="displaybtn(value)">8</button> </td>
+            <td><button type="button" value="9" onclick="displaybtn(value)">9</button> </td>
+            <td><button type="button" value="*" onclick="displaybtn(value)">*</button> </td>
+        </tr>
+
+        <tr>
+            <td><button type="button" onclick="resetbtn()">C</button> </td>
+            <td><button type="button" value="0" onclick="displaybtn(value)">0</button> </td>
+            <td><button type="button" onclick="calbtn()">=</button> </td>
+            <td><button type="button" value="/" onclick="displaybtn(value)">/</button> </td>
+        </tr>
+
+
     </table>
-
-
 </div>
 </body>
 </html>

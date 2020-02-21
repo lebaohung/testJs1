@@ -1,11 +1,19 @@
-div {
-    text-align-last: center;
-}
-
-table {
+.container {
+    display: table;
+    margin: auto;
     text-align: center;
+    border: 5px solid black;
+
 }
 
-.ip {
-    float: right;
+.inputzone {
+    text-align: right;
 }
+
+input[type="button"] {
+    color: #7671ff;
+    border: solid rgba(100,110,48,0.43) 2px;
+    width: 100%;
+}
+
+
